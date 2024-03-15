@@ -1,0 +1,122 @@
+# //  Questa Sim-64
+# //  Version 2020.4 linux_x86_64 Oct 13 2020
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+vcom -reportprogress 300 -work work /home/ms24.40/setup/vhdlsim/constants.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 08:51:38 on Mar 14,2024
+# vcom -reportprogress 300 -work work /home/ms24.40/setup/vhdlsim/constants.vhd 
+# -- Loading package STANDARD
+# -- Compiling package CONSTANTS
+# End time: 08:51:39 on Mar 14,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim work.mux21test
+# vsim work.mux21test 
+# Start time: 08:54:13 on Mar 14,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.constants
+# Loading work.mux21test#1
+# Loading work.tbmux21(test)#1
+# Loading work.cfg_mux21_behavioral_1#1
+# Loading work.mux21(behavioral_1)#1
+# Loading work.cfg_mux21_behavioral_2#1
+# Loading work.mux21(behavioral_2)#1
+# Loading work.cfg_mux21_behavioral_3#1
+# Loading work.mux21(behavioral_3)#1
+# Loading work.cfg_mux21_structural#1
+# Loading work.mux21(structural)#1
+# Loading work.cfg_iv_behavioral#1
+# Loading work.iv(behavioral)#1
+# Loading work.cfg_nd2_arch2#1
+# Loading work.nd2(arch2)#1
+vsim work.mux21test -voptargs=+acc
+# End time: 08:55:47 on Mar 14,2024, Elapsed time: 0:01:34
+# Errors: 0, Warnings: 0
+# vsim work.mux21test -voptargs="+acc" 
+# Start time: 08:55:47 on Mar 14,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.constants
+# Loading work.mux21test#1
+# Loading work.tbmux21(test)#1
+# Loading work.cfg_mux21_behavioral_1#1
+# Loading work.mux21(behavioral_1)#1
+# Loading work.cfg_mux21_behavioral_2#1
+# Loading work.mux21(behavioral_2)#1
+# Loading work.cfg_mux21_behavioral_3#1
+# Loading work.mux21(behavioral_3)#1
+# Loading work.cfg_mux21_structural#1
+# Loading work.mux21(structural)#1
+# Loading work.cfg_iv_behavioral#1
+# Loading work.iv(behavioral)#1
+# Loading work.cfg_nd2_arch2#1
+# Loading work.nd2(arch2)#1
+add wave *
+run 3 ns
+# ** Fatal: (vsim-3483) Delay in signal assignment is not ascending.
+#    Time: 0 ns  Iteration: 0  Process: /tbmux21/line__64 File: tb_mux21.vhd Line: 64
+# Fatal error in Architecture TEST at tb_mux21.vhd line 64
+# 
+# HDL call sequence:
+# Stopped at tb_mux21.vhd 64 Architecture TEST
+# 
+run 8000 ps
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at tb_mux21.vhd 64 Architecture TEST
+# 
+run 3 ns
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at tb_mux21.vhd 64 Architecture TEST
+# 
+run 3 ns
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at tb_mux21.vhd 64 Architecture TEST
+# 
+vsim -voptargs=+acc work.mux21test -t 10ps
+# End time: 09:01:24 on Mar 14,2024, Elapsed time: 0:05:37
+# Errors: 1, Warnings: 0
+# vsim -voptargs="+acc" work.mux21test -t 10ps 
+# Start time: 09:01:24 on Mar 14,2024
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.constants
+# Loading work.mux21test#1
+# Loading work.tbmux21(test)#1
+# Loading work.cfg_mux21_behavioral_1#1
+# Loading work.mux21(behavioral_1)#1
+# Loading work.cfg_mux21_behavioral_2#1
+# Loading work.mux21(behavioral_2)#1
+# Loading work.cfg_mux21_behavioral_3#1
+# Loading work.mux21(behavioral_3)#1
+# Loading work.cfg_mux21_structural#1
+# Loading work.mux21(structural)#1
+# Loading work.cfg_iv_behavioral#1
+# Loading work.iv(behavioral)#1
+# Loading work.cfg_nd2_arch2#1
+# Loading work.nd2(arch2)#1
+add wave *
+run 3 ns
+run 8000 ps
+# Causality operation skipped due to absence of debug database file
+# End time: 10:54:26 on Mar 14,2024, Elapsed time: 1:53:02
+# Errors: 0, Warnings: 0
