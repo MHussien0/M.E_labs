@@ -1,0 +1,327 @@
+# //  Questa Sim-64
+# //  Version 2020.4 linux_x86_64 Oct 13 2020
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/accumulator_gen.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 20:53:00 on Mar 26,2024
+# vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/accumulator_gen.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity ACC
+# -- Compiling architecture STRUCTURAL of ACC
+# -- Compiling architecture BEHAVIORAL of ACC
+# -- Loading entity ACC
+# -- Compiling configuration CFG_ACC_STRUCTURAL
+# -- Loading entity ACC
+# -- Loading architecture STRUCTURAL of ACC
+# -- Loading entity MUX21_GENERIC
+# -- Loading entity RCA
+# -- Loading entity FD
+# -- Loading configuration cfg_mux21_gen_behavioral
+# -- Loading configuration cfg_rca_behavioral
+# -- Loading configuration cfg_fd_pluto
+# -- Compiling configuration CFG_ACC_BEHAVIORAL
+# -- Loading entity ACC
+# -- Loading architecture BEHAVIORAL of ACC
+# End time: 20:53:01 on Mar 26,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 20:53:06 on Mar 26,2024
+# vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package CONSTANTS
+# -- Compiling entity tb_acc
+# -- Compiling architecture TEST of tb_acc
+# ** Error: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(29): (vcom-1136) Unknown identifier "NBIT".
+# ** Error: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(29): (vcom-1591) Bad expression in left bound of range expression.
+# ** Error: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(29): Type error in range expression.
+# ** Error: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(30): (vcom-1136) Unknown identifier "NBIT".
+# ** Error: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(30): (vcom-1591) Bad expression in left bound of range expression.
+# ** Error: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(30): Type error in range expression.
+# ** Error: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(35): (vcom-1136) Unknown identifier "NBIT".
+# ** Error: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(35): (vcom-1591) Bad expression in left bound of range expression.
+# ** Error: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(35): Type error in range expression.
+# ** Note: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(118): VHDL Compiler exiting
+# End time: 20:53:07 on Mar 26,2024, Elapsed time: 0:00:01
+# Errors: 9, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 20:53:53 on Mar 26,2024
+# vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package CONSTANTS
+# -- Compiling entity tb_acc
+# -- Compiling architecture TEST of tb_acc
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(60): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(61): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(68): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(69): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(76): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(77): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(84): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(85): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(92): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(93): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(100): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(101): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(108): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(109): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Note: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(118): VHDL Compiler exiting
+# End time: 20:53:53 on Mar 26,2024, Elapsed time: 0:00:00
+# Errors: 14, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 20:54:37 on Mar 26,2024
+# vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package CONSTANTS
+# -- Compiling entity tb_acc
+# -- Compiling architecture TEST of tb_acc
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(60): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(61): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(68): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(69): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(76): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(77): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(84): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(85): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(92): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(93): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(100): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(101): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(108): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(109): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Note: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(118): VHDL Compiler exiting
+# End time: 20:54:38 on Mar 26,2024, Elapsed time: 0:00:01
+# Errors: 14, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 20:54:49 on Mar 26,2024
+# vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package CONSTANTS
+# -- Compiling entity tb_acc
+# -- Compiling architecture TEST of tb_acc
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(60): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(61): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(68): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(69): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(76): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(77): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(84): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(85): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(92): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(93): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(100): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(101): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(108): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(109): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Note: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(118): VHDL Compiler exiting
+# End time: 20:54:50 on Mar 26,2024, Elapsed time: 0:00:01
+# Errors: 14, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 20:55:48 on Mar 26,2024
+# vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package CONSTANTS
+# -- Compiling entity tb_acc
+# -- Compiling architecture TEST of tb_acc
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(60): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(61): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(68): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(69): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(76): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(77): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(84): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(85): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(92): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(93): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(100): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(101): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(108): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(109): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Note: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(118): VHDL Compiler exiting
+# End time: 20:55:48 on Mar 26,2024, Elapsed time: 0:00:00
+# Errors: 14, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 20:56:10 on Mar 26,2024
+# vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package CONSTANTS
+# -- Compiling entity tb_acc
+# -- Compiling architecture TEST of tb_acc
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(60): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(61): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(68): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(69): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(76): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(77): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(84): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(85): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(92): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(93): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(100): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(101): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(108): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(109): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Note: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(118): VHDL Compiler exiting
+# End time: 20:56:10 on Mar 26,2024, Elapsed time: 0:00:00
+# Errors: 14, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 20:56:26 on Mar 26,2024
+# vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package CONSTANTS
+# -- Compiling entity tb_acc
+# -- Compiling architecture TEST of tb_acc
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(60): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(61): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(68): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(69): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(76): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(77): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(84): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(85): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(92): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(93): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(100): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(101): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(108): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(109): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Note: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(118): VHDL Compiler exiting
+# End time: 20:56:26 on Mar 26,2024, Elapsed time: 0:00:00
+# Errors: 14, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 20:57:11 on Mar 26,2024
+# vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package CONSTANTS
+# -- Compiling entity tb_acc
+# -- Compiling architecture TEST of tb_acc
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(60): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(61): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(68): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(69): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(76): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(77): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(84): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(85): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(92): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(93): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(100): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(101): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(108): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(109): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Note: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(118): VHDL Compiler exiting
+# End time: 20:57:11 on Mar 26,2024, Elapsed time: 0:00:00
+# Errors: 14, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 20:58:05 on Mar 26,2024
+# vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package CONSTANTS
+# -- Compiling entity tb_acc
+# -- Compiling architecture TEST of tb_acc
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(60): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(61): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(68): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(69): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(76): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(77): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(84): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(85): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(92): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(93): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(100): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(101): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(108): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(109): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Note: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(118): VHDL Compiler exiting
+# End time: 20:58:05 on Mar 26,2024, Elapsed time: 0:00:00
+# Errors: 14, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 21:04:51 on Mar 26,2024
+# vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package CONSTANTS
+# -- Compiling entity tb_acc
+# -- Compiling architecture TEST of tb_acc
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(60): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(61): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(68): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(69): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(76): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(77): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(84): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(85): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(92): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(93): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(100): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(101): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(108): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(109): (vcom-1272) Length of expected is 4; length of actual is 32.
+# ** Note: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_acc.vhd(118): VHDL Compiler exiting
+# End time: 21:04:52 on Mar 26,2024, Elapsed time: 0:00:01
+# Errors: 14, Warnings: 0

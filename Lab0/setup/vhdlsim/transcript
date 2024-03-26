@@ -12,111 +12,625 @@
 # //  is prohibited from disclosure under the Trade Secrets Act,
 # //  18 U.S.C. Section 1905.
 # //
-vcom -reportprogress 300 -work work /home/ms24.40/setup/vhdlsim/constants.vhd
+vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/mux21_generic.vhd
 # QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 08:51:38 on Mar 14,2024
-# vcom -reportprogress 300 -work work /home/ms24.40/setup/vhdlsim/constants.vhd 
+# Start time: 12:29:48 on Mar 19,2024
+# vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/mux21_generic.vhd 
+# -- Loading package STANDARD
+vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/mux21_generic.vhd
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity MUX21_GENERIC
+# -- Compiling architecture BEHAVIORAL of MUX21_GENERIC
+# -- Compiling architecture STRUCTURAL of MUX21_GENERIC
+# -- Loading entity MUX21_GENERIC
+# ** Error: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/mux21_generic.vhd(65): Signal [mode IN port] "A" is type ieee.std_logic_1164.STD_LOGIC_VECTOR; expecting type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/mux21_generic.vhd(68): Signal [mode IN port] "B" is type ieee.std_logic_1164.STD_LOGIC_VECTOR; expecting type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/mux21_generic.vhd(71): Signal [mode OUT port] "Y" is type ieee.std_logic_1164.STD_LOGIC_VECTOR; expecting type ieee.std_logic_1164.STD_LOGIC.
+# ** Note: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/mux21_generic.vhd(74): VHDL Compiler exiting
+# End time: 12:29:48 on Mar 19,2024, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 12:29:48 on Mar 19,2024
+# vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/mux21_generic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity MUX21_GENERIC
+# -- Compiling architecture BEHAVIORAL of MUX21_GENERIC
+# -- Compiling architecture STRUCTURAL of MUX21_GENERIC
+# -- Loading entity MUX21_GENERIC
+# ** Error: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/mux21_generic.vhd(65): Signal [mode IN port] "A" is type ieee.std_logic_1164.STD_LOGIC_VECTOR; expecting type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/mux21_generic.vhd(68): Signal [mode IN port] "B" is type ieee.std_logic_1164.STD_LOGIC_VECTOR; expecting type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/mux21_generic.vhd(71): Signal [mode OUT port] "Y" is type ieee.std_logic_1164.STD_LOGIC_VECTOR; expecting type ieee.std_logic_1164.STD_LOGIC.
+# ** Note: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/mux21_generic.vhd(74): VHDL Compiler exiting
+# End time: 12:29:48 on Mar 19,2024, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/mux21_generic.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 12:30:52 on Mar 19,2024
+# vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/mux21_generic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity MUX21_GENERIC
+# -- Compiling architecture BEHAVIORAL of MUX21_GENERIC
+# -- Compiling architecture STRUCTURAL of MUX21_GENERIC
+# -- Loading entity MUX21_GENERIC
+# ** Error: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/mux21_generic.vhd(65): Signal [mode IN port] "A" is type ieee.std_logic_1164.STD_LOGIC_VECTOR; expecting type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/mux21_generic.vhd(68): Signal [mode IN port] "B" is type ieee.std_logic_1164.STD_LOGIC_VECTOR; expecting type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/mux21_generic.vhd(71): Signal [mode OUT port] "Y" is type ieee.std_logic_1164.STD_LOGIC_VECTOR; expecting type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/mux21_generic.vhd(73): Symbol "UIV" has already been declared in this region.
+# ** Error: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/mux21_generic.vhd(76): Symbol "UND1" has already been declared in this region.
+# ** Error: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/mux21_generic.vhd(79): Cannot resolve indexed name as type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/mux21_generic.vhd(82): Symbol "UND2" has already been declared in this region.
+# ** Error: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/mux21_generic.vhd(85): Cannot resolve indexed name as type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/mux21_generic.vhd(88): Symbol "UND3" has already been declared in this region.
+# ** Error: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/mux21_generic.vhd(91): Cannot resolve indexed name as type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/mux21_generic.vhd(91): Cannot resolve indexed name as type ieee.std_logic_1164.STD_LOGIC.
+# ** Note: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/mux21_generic.vhd(93): VHDL Compiler exiting
+# End time: 12:30:53 on Mar 19,2024, Elapsed time: 0:00:01
+# Errors: 11, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/mux21_generic.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 12:31:45 on Mar 19,2024
+# vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/mux21_generic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity MUX21_GENERIC
+# -- Compiling architecture BEHAVIORAL of MUX21_GENERIC
+# -- Compiling architecture STRUCTURAL of MUX21_GENERIC
+# -- Loading entity MUX21_GENERIC
+# ** Error: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/mux21_generic.vhd(68): Cannot resolve indexed name as type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/mux21_generic.vhd(74): Cannot resolve indexed name as type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/mux21_generic.vhd(80): Cannot resolve indexed name as type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/mux21_generic.vhd(80): Cannot resolve indexed name as type ieee.std_logic_1164.STD_LOGIC.
+# ** Note: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/mux21_generic.vhd(82): VHDL Compiler exiting
+# End time: 12:31:45 on Mar 19,2024, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/mux21_generic.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 12:37:00 on Mar 19,2024
+# vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/mux21_generic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity MUX21_GENERIC
+# -- Compiling architecture BEHAVIORAL of MUX21_GENERIC
+# -- Compiling architecture STRUCTURAL of MUX21_GENERIC
+# -- Loading entity MUX21_GENERIC
+# ** Error: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/mux21_generic.vhd(68): Cannot resolve indexed name as type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/mux21_generic.vhd(74): Cannot resolve indexed name as type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/mux21_generic.vhd(80): Cannot resolve indexed name as type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/mux21_generic.vhd(80): Cannot resolve indexed name as type ieee.std_logic_1164.STD_LOGIC.
+# ** Note: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/mux21_generic.vhd(83): VHDL Compiler exiting
+# End time: 12:37:00 on Mar 19,2024, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/mux21_generic.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 12:39:15 on Mar 19,2024
+# vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/mux21_generic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity MUX21_GENERIC
+# -- Compiling architecture BEHAVIORAL of MUX21_GENERIC
+# -- Compiling architecture STRUCTURAL of MUX21_GENERIC
+# -- Loading entity MUX21_GENERIC
+# ** Error: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/mux21_generic.vhd(68): Cannot resolve slice name as type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/mux21_generic.vhd(68): Cannot resolve indexed name as type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/mux21_generic.vhd(74): Cannot resolve indexed name as type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/mux21_generic.vhd(80): Cannot resolve indexed name as type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/mux21_generic.vhd(80): Cannot resolve indexed name as type ieee.std_logic_1164.STD_LOGIC.
+# ** Note: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/mux21_generic.vhd(83): VHDL Compiler exiting
+# End time: 12:39:16 on Mar 19,2024, Elapsed time: 0:00:01
+# Errors: 5, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/mux21_generic.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 12:40:36 on Mar 19,2024
+# vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/mux21_generic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity MUX21_GENERIC
+# -- Compiling architecture BEHAVIORAL of MUX21_GENERIC
+# -- Compiling architecture STRUCTURAL of MUX21_GENERIC
+# -- Loading entity MUX21_GENERIC
+# ** Error: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/mux21_generic.vhd(68): (vcom-1348) Prefix (signal "Y1") of slice name is not an array.
+# ** Error: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/mux21_generic.vhd(74): Cannot resolve indexed name as type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/mux21_generic.vhd(80): Cannot resolve indexed name as type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/mux21_generic.vhd(80): Cannot resolve indexed name as type ieee.std_logic_1164.STD_LOGIC.
+# ** Note: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/mux21_generic.vhd(83): VHDL Compiler exiting
+# End time: 12:40:36 on Mar 19,2024, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/mux21_generic.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 12:42:23 on Mar 19,2024
+# vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/mux21_generic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity MUX21_GENERIC
+# -- Compiling architecture BEHAVIORAL of MUX21_GENERIC
+# -- Compiling architecture STRUCTURAL of MUX21_GENERIC
+# -- Loading entity MUX21_GENERIC
+# -- Compiling configuration CFG_MUX21_GEN_BEHAVIORAL
+# -- Loading entity MUX21
+# ** Error: (vcom-11) Could not find work.mux21(BEHAVIORAL).
+# ** Error: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/mux21_generic.vhd(89): (vcom-1537) Block specification "BEHAVIORAL" is not an architecture name.
+# ** Note: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/mux21_generic.vhd(90): VHDL Compiler exiting
+# End time: 12:42:24 on Mar 19,2024, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/mux21_generic.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 12:45:01 on Mar 19,2024
+# vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/mux21_generic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity MUX21_GENERIC
+# -- Compiling architecture BEHAVIORAL of MUX21_GENERIC
+# -- Compiling architecture STRUCTURAL of MUX21_GENERIC
+# -- Loading entity MUX21_GENERIC
+# -- Compiling configuration CFG_MUX21_GEN_BEHAVIORAL
+# -- Loading entity MUX21
+# ** Error: (vcom-11) Could not find work.mux21(BEHAVIORAL).
+# ** Error: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/mux21_generic.vhd(89): (vcom-1537) Block specification "BEHAVIORAL" is not an architecture name.
+# ** Note: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/mux21_generic.vhd(90): VHDL Compiler exiting
+# End time: 12:45:01 on Mar 19,2024, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/mux21_generic.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 12:46:31 on Mar 19,2024
+# vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/mux21_generic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity MUX21_GENERIC
+# -- Compiling architecture BEHAVIORAL_1 of MUX21_GENERIC
+# ** Error: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/mux21_generic.vhd(38): Labels do not match: 'BEHAVIORAL_1' and 'BEHAVIORAL'.
+# ** Note: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/mux21_generic.vhd(38): VHDL Compiler exiting
+# End time: 12:46:31 on Mar 19,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/mux21_generic.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 12:46:57 on Mar 19,2024
+# vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/mux21_generic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity MUX21_GENERIC
+# -- Compiling architecture BEHAVIORAL_1 of MUX21_GENERIC
+# -- Compiling architecture STRUCTURAL of MUX21_GENERIC
+# -- Loading entity MUX21_GENERIC
+# -- Compiling configuration CFG_MUX21_GEN_BEHAVIORAL
+# -- Loading entity MUX21
+# -- Loading architecture BEHAVIORAL_1 of MUX21
+# -- Compiling configuration CFG_MUX21_GEN_STRUCTURAL
+# -- Loading entity MUX21
+# -- Loading architecture STRUCTURAL of MUX21
+# -- Loading entity IV
+# -- Loading entity ND2
+# -- Loading configuration cfg_iv_behavioral
+# -- Loading configuration cfg_nd2_arch2
+# End time: 12:46:57 on Mar 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/mux21_generic.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 12:48:09 on Mar 19,2024
+# vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/mux21_generic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity MUX21_GENERIC
+# -- Compiling architecture BEHAVIORAL_5 of MUX21_GENERIC
+# -- Compiling architecture STRUCTURAL of MUX21_GENERIC
+# -- Loading entity MUX21_GENERIC
+# -- Compiling configuration CFG_MUX21_GEN_BEHAVIORAL
+# -- Loading entity MUX21
+# ** Error: (vcom-11) Could not find work.mux21(BEHAVIORAL_5).
+# ** Error: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/mux21_generic.vhd(89): (vcom-1537) Block specification "BEHAVIORAL_5" is not an architecture name.
+# ** Note: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/mux21_generic.vhd(90): VHDL Compiler exiting
+# End time: 12:48:10 on Mar 19,2024, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/mux21_generic.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 12:55:09 on Mar 19,2024
+# vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/mux21_generic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity MUX21_GENERIC
+# -- Compiling architecture BEHAVIORAL_5 of MUX21_GENERIC
+# -- Compiling architecture STRUCTURAL of MUX21_GENERIC
+# -- Loading entity MUX21_GENERIC
+# -- Compiling configuration CFG_MUX21_GEN_BEHAVIORAL
+# -- Loading entity MUX21_GENERIC
+# -- Loading architecture BEHAVIORAL_5 of MUX21_GENERIC
+# -- Compiling configuration CFG_MUX21_GEN_STRUCTURAL
+# -- Loading entity MUX21_GENERIC
+# -- Loading architecture STRUCTURAL of MUX21_GENERIC
+# -- Loading entity IV
+# -- Loading entity ND2
+# -- Loading configuration cfg_iv_behavioral
+# -- Loading configuration cfg_nd2_arch2
+# ** Warning: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/mux21_generic.vhd(98): (vcom-1263) Component configuration "all : ND2" applies to no component instantiation statements.
+# End time: 12:55:10 on Mar 19,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
+vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/nd2.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 12:56:44 on Mar 19,2024
+# vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/nd2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity ND2
+# -- Compiling architecture ARCH1 of ND2
+# -- Compiling architecture ARCH2 of ND2
+# -- Loading entity ND2
+# -- Compiling configuration CFG_ND2_ARCH1
+# -- Loading entity ND2
+# -- Loading architecture ARCH1 of ND2
+# -- Compiling configuration CFG_ND2_ARCH2
+# -- Loading entity ND2
+# -- Loading architecture ARCH2 of ND2
+# End time: 12:56:44 on Mar 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/tb_mux21.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 12:56:45 on Mar 19,2024
+# vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/tb_mux21.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity TBMUX21
+# -- Compiling architecture TEST of TBMUX21
+# -- Compiling configuration MUX21TEST
+# -- Loading entity TBMUX21
+# -- Loading architecture TEST of TBMUX21
+# -- Loading entity MUX21
+# -- Loading configuration cfg_mux21_behavioral_1
+# -- Loading configuration cfg_mux21_behavioral_2
+# -- Loading configuration cfg_mux21_behavioral_3
+# ** Error: (vcom-13) Recompile work.cfg_mux21_structural because work.cfg_nd2_arch2, work.nd2 have changed.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/tb_mux21.vhd(85): (vcom-1195) Cannot find expanded name "work.CFG_MUX21_STRUCTURAL".
+# ** Error: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/tb_mux21.vhd(85): (vcom-1106) Name (expanded name) is not a configuration name.
+# ** Error: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/tb_mux21.vhd(85): Unknown expanded name.
+# ** Note: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/tb_mux21.vhd(89): VHDL Compiler exiting
+# End time: 12:56:46 on Mar 19,2024, Elapsed time: 0:00:01
+# Errors: 4, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/mux21.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 12:57:06 on Mar 19,2024
+# vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/mux21.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity MUX21
+# -- Compiling architecture BEHAVIORAL_1 of MUX21
+# -- Compiling architecture BEHAVIORAL_2 of MUX21
+# -- Loading entity MUX21
+# -- Compiling architecture BEHAVIORAL_3 of MUX21
+# -- Loading entity MUX21
+# -- Compiling architecture STRUCTURAL of MUX21
+# -- Loading entity MUX21
+# -- Compiling configuration CFG_MUX21_BEHAVIORAL_1
+# -- Loading entity MUX21
+# -- Loading architecture BEHAVIORAL_1 of MUX21
+# -- Compiling configuration CFG_MUX21_BEHAVIORAL_2
+# -- Loading entity MUX21
+# -- Loading architecture BEHAVIORAL_2 of MUX21
+# -- Compiling configuration CFG_MUX21_BEHAVIORAL_3
+# -- Loading entity MUX21
+# -- Loading architecture BEHAVIORAL_3 of MUX21
+# -- Compiling configuration CFG_MUX21_STRUCTURAL
+# -- Loading entity MUX21
+# -- Loading architecture STRUCTURAL of MUX21
+# -- Loading entity IV
+# -- Loading entity ND2
+# -- Loading configuration cfg_iv_behavioral
+# -- Loading configuration cfg_nd2_arch2
+# End time: 12:57:07 on Mar 19,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/tb_mux21.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 12:57:10 on Mar 19,2024
+# vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/tb_mux21.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity TBMUX21
+# -- Compiling architecture TEST of TBMUX21
+# -- Compiling configuration MUX21TEST
+# -- Loading entity TBMUX21
+# -- Loading architecture TEST of TBMUX21
+# -- Loading entity MUX21
+# -- Loading configuration cfg_mux21_behavioral_1
+# -- Loading configuration cfg_mux21_behavioral_2
+# -- Loading configuration cfg_mux21_behavioral_3
+# -- Loading configuration cfg_mux21_structural
+# End time: 12:57:10 on Mar 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/tb_mux21_generic.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 12:57:12 on Mar 19,2024
+# vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/tb_mux21_generic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity TBMUX21_GENERIC
+# -- Compiling architecture TEST of TBMUX21_GENERIC
+# -- Compiling configuration MUX21GENTEST
+# -- Loading entity TBMUX21_GENERIC
+# -- Loading architecture TEST of TBMUX21_GENERIC
+# -- Loading entity MUX21_GENERIC
+# -- Loading configuration cfg_mux21_gen_behavioral
+# ** Error: (vcom-13) Recompile work.cfg_mux21_gen_structural because work.cfg_nd2_arch2, work.nd2 have changed.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/tb_mux21_generic.vhd(53): (vcom-1195) Cannot find expanded name "work.CFG_MUX21_GEN_STRUCTURAL".
+# ** Error: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/tb_mux21_generic.vhd(53): (vcom-1106) Name (expanded name) is not a configuration name.
+# ** Error: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/tb_mux21_generic.vhd(53): Unknown expanded name.
+# ** Note: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/tb_mux21_generic.vhd(57): VHDL Compiler exiting
+# End time: 12:57:12 on Mar 19,2024, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/nd2.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 12:57:20 on Mar 19,2024
+# vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/nd2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity ND2
+# -- Compiling architecture ARCH1 of ND2
+# -- Compiling architecture ARCH2 of ND2
+# -- Loading entity ND2
+# -- Compiling configuration CFG_ND2_ARCH1
+# -- Loading entity ND2
+# -- Loading architecture ARCH1 of ND2
+# -- Compiling configuration CFG_ND2_ARCH2
+# -- Loading entity ND2
+# -- Loading architecture ARCH2 of ND2
+# End time: 12:57:20 on Mar 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/tb_mux21_generic.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 12:57:20 on Mar 19,2024
+# vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/tb_mux21_generic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity TBMUX21_GENERIC
+# -- Compiling architecture TEST of TBMUX21_GENERIC
+# -- Compiling configuration MUX21GENTEST
+# -- Loading entity TBMUX21_GENERIC
+# -- Loading architecture TEST of TBMUX21_GENERIC
+# -- Loading entity MUX21_GENERIC
+# -- Loading configuration cfg_mux21_gen_behavioral
+# ** Error: (vcom-13) Recompile work.cfg_mux21_gen_structural because work.cfg_nd2_arch2, work.nd2 have changed.
+# ** Error (suppressible): /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/tb_mux21_generic.vhd(53): (vcom-1195) Cannot find expanded name "work.CFG_MUX21_GEN_STRUCTURAL".
+# ** Error: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/tb_mux21_generic.vhd(53): (vcom-1106) Name (expanded name) is not a configuration name.
+# ** Error: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/tb_mux21_generic.vhd(53): Unknown expanded name.
+# ** Note: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/tb_mux21_generic.vhd(57): VHDL Compiler exiting
+# End time: 12:57:21 on Mar 19,2024, Elapsed time: 0:00:01
+# Errors: 4, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/mux21_generic.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 12:57:27 on Mar 19,2024
+# vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/mux21_generic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity MUX21_GENERIC
+# -- Compiling architecture BEHAVIORAL_5 of MUX21_GENERIC
+# -- Compiling architecture STRUCTURAL of MUX21_GENERIC
+# -- Loading entity MUX21_GENERIC
+# -- Compiling configuration CFG_MUX21_GEN_BEHAVIORAL
+# -- Loading entity MUX21_GENERIC
+# -- Loading architecture BEHAVIORAL_5 of MUX21_GENERIC
+# -- Compiling configuration CFG_MUX21_GEN_STRUCTURAL
+# -- Loading entity MUX21_GENERIC
+# -- Loading architecture STRUCTURAL of MUX21_GENERIC
+# -- Loading entity IV
+# -- Loading entity ND2
+# -- Loading configuration cfg_iv_behavioral
+# -- Loading configuration cfg_nd2_arch2
+# ** Warning: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/mux21_generic.vhd(98): (vcom-1263) Component configuration "all : ND2" applies to no component instantiation statements.
+# End time: 12:57:28 on Mar 19,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
+vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/tb_mux21_generic.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 12:57:29 on Mar 19,2024
+# vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/tb_mux21_generic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity TBMUX21_GENERIC
+# -- Compiling architecture TEST of TBMUX21_GENERIC
+# -- Compiling configuration MUX21GENTEST
+# -- Loading entity TBMUX21_GENERIC
+# -- Loading architecture TEST of TBMUX21_GENERIC
+# -- Loading entity MUX21_GENERIC
+# -- Loading configuration cfg_mux21_gen_behavioral
+# -- Loading configuration cfg_mux21_gen_structural
+# End time: 12:57:29 on Mar 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/tb_mux21_generic.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 12:57:35 on Mar 19,2024
+# vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/vhdlsim/tb_mux21_generic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity TBMUX21_GENERIC
+# -- Compiling architecture TEST of TBMUX21_GENERIC
+# -- Compiling configuration MUX21GENTEST
+# -- Loading entity TBMUX21_GENERIC
+# -- Loading architecture TEST of TBMUX21_GENERIC
+# -- Loading entity MUX21_GENERIC
+# -- Loading configuration cfg_mux21_gen_behavioral
+# -- Loading configuration cfg_mux21_gen_structural
+# End time: 12:57:35 on Mar 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+./compile
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 12:57:44 on Mar 19,2024
+# vcom constants.vhd 
 # -- Loading package STANDARD
 # -- Compiling package CONSTANTS
-# End time: 08:51:39 on Mar 14,2024, Elapsed time: 0:00:01
+# End time: 12:57:45 on Mar 19,2024, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
-vsim work.mux21test
-# vsim work.mux21test 
-# Start time: 08:54:13 on Mar 14,2024
-# ** Note: (vsim-3812) Design is being optimized...
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading work.constants
-# Loading work.mux21test#1
-# Loading work.tbmux21(test)#1
-# Loading work.cfg_mux21_behavioral_1#1
-# Loading work.mux21(behavioral_1)#1
-# Loading work.cfg_mux21_behavioral_2#1
-# Loading work.mux21(behavioral_2)#1
-# Loading work.cfg_mux21_behavioral_3#1
-# Loading work.mux21(behavioral_3)#1
-# Loading work.cfg_mux21_structural#1
-# Loading work.mux21(structural)#1
-# Loading work.cfg_iv_behavioral#1
-# Loading work.iv(behavioral)#1
-# Loading work.cfg_nd2_arch2#1
-# Loading work.nd2(arch2)#1
-vsim work.mux21test -voptargs=+acc
-# End time: 08:55:47 on Mar 14,2024, Elapsed time: 0:01:34
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 12:57:45 on Mar 19,2024
+# vcom iv.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity IV
+# -- Compiling architecture BEHAVIORAL of IV
+# -- Compiling configuration CFG_IV_BEHAVIORAL
+# -- Loading entity IV
+# -- Loading architecture BEHAVIORAL of IV
+# End time: 12:57:45 on Mar 19,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vsim work.mux21test -voptargs="+acc" 
-# Start time: 08:55:47 on Mar 14,2024
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 12:57:45 on Mar 19,2024
+# vcom nd2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity ND2
+# -- Compiling architecture ARCH1 of ND2
+# -- Compiling architecture ARCH2 of ND2
+# -- Loading entity ND2
+# -- Compiling configuration CFG_ND2_ARCH1
+# -- Loading entity ND2
+# -- Loading architecture ARCH1 of ND2
+# -- Compiling configuration CFG_ND2_ARCH2
+# -- Loading entity ND2
+# -- Loading architecture ARCH2 of ND2
+# End time: 12:57:45 on Mar 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 12:57:45 on Mar 19,2024
+# vcom mux21.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity MUX21
+# -- Compiling architecture BEHAVIORAL_1 of MUX21
+# -- Compiling architecture BEHAVIORAL_2 of MUX21
+# -- Loading entity MUX21
+# -- Compiling architecture BEHAVIORAL_3 of MUX21
+# -- Loading entity MUX21
+# -- Compiling architecture STRUCTURAL of MUX21
+# -- Loading entity MUX21
+# -- Compiling configuration CFG_MUX21_BEHAVIORAL_1
+# -- Loading entity MUX21
+# -- Loading architecture BEHAVIORAL_1 of MUX21
+# -- Compiling configuration CFG_MUX21_BEHAVIORAL_2
+# -- Loading entity MUX21
+# -- Loading architecture BEHAVIORAL_2 of MUX21
+# -- Compiling configuration CFG_MUX21_BEHAVIORAL_3
+# -- Loading entity MUX21
+# -- Loading architecture BEHAVIORAL_3 of MUX21
+# -- Compiling configuration CFG_MUX21_STRUCTURAL
+# -- Loading entity MUX21
+# -- Loading architecture STRUCTURAL of MUX21
+# -- Loading entity IV
+# -- Loading entity ND2
+# -- Loading configuration cfg_iv_behavioral
+# -- Loading configuration cfg_nd2_arch2
+# End time: 12:57:45 on Mar 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 12:57:45 on Mar 19,2024
+# vcom tb_mux21.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package CONSTANTS
+# -- Compiling entity TBMUX21
+# -- Compiling architecture TEST of TBMUX21
+# -- Compiling configuration MUX21TEST
+# -- Loading entity TBMUX21
+# -- Loading architecture TEST of TBMUX21
+# -- Loading entity MUX21
+# -- Loading configuration cfg_mux21_behavioral_1
+# -- Loading configuration cfg_mux21_behavioral_2
+# -- Loading configuration cfg_mux21_behavioral_3
+# -- Loading configuration cfg_mux21_structural
+# End time: 12:57:46 on Mar 19,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim work.mux21gentest -t 10ps
+# vsim work.mux21gentest -t 10ps 
+# Start time: 12:58:47 on Mar 19,2024
 # ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-13) Recompile work.cfg_mux21_gen_structural because work.cfg_nd2_arch2, work.nd2 have changed.
+# ** Warning: (vopt-12) Recompile work.mux21gentest after work.cfg_mux21_gen_structural is recompiled.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=2.
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
 # Loading work.constants
-# Loading work.mux21test#1
-# Loading work.tbmux21(test)#1
-# Loading work.cfg_mux21_behavioral_1#1
-# Loading work.mux21(behavioral_1)#1
-# Loading work.cfg_mux21_behavioral_2#1
-# Loading work.mux21(behavioral_2)#1
-# Loading work.cfg_mux21_behavioral_3#1
-# Loading work.mux21(behavioral_3)#1
-# Loading work.cfg_mux21_structural#1
-# Loading work.mux21(structural)#1
+# Loading work.mux21gentest#1
+# Loading work.tbmux21_generic(test)#1
+# Loading work.cfg_mux21_gen_behavioral#1
+# Loading work.mux21_generic(behavioral_5)#1
+# Loading work.cfg_mux21_gen_structural#1
+# Loading work.mux21_generic(structural)#1
 # Loading work.cfg_iv_behavioral#1
 # Loading work.iv(behavioral)#1
-# Loading work.cfg_nd2_arch2#1
-# Loading work.nd2(arch2)#1
-add wave *
-run 3 ns
-# ** Fatal: (vsim-3483) Delay in signal assignment is not ascending.
-#    Time: 0 ns  Iteration: 0  Process: /tbmux21/line__64 File: tb_mux21.vhd Line: 64
-# Fatal error in Architecture TEST at tb_mux21.vhd line 64
-# 
-# HDL call sequence:
-# Stopped at tb_mux21.vhd 64 Architecture TEST
-# 
-run 8000 ps
-# Cannot continue because of fatal error.
-# HDL call sequence:
-# Stopped at tb_mux21.vhd 64 Architecture TEST
-# 
-run 3 ns
-# Cannot continue because of fatal error.
-# HDL call sequence:
-# Stopped at tb_mux21.vhd 64 Architecture TEST
-# 
-run 3 ns
-# Cannot continue because of fatal error.
-# HDL call sequence:
-# Stopped at tb_mux21.vhd 64 Architecture TEST
-# 
-vsim -voptargs=+acc work.mux21test -t 10ps
-# End time: 09:01:24 on Mar 14,2024, Elapsed time: 0:05:37
-# Errors: 1, Warnings: 0
-# vsim -voptargs="+acc" work.mux21test -t 10ps 
-# Start time: 09:01:24 on Mar 14,2024
-# ** Note: (vsim-8009) Loading existing optimized design _opt1
+vsim -t 10ps work.mux21gentest -voptargs=+acc
+# End time: 13:01:02 on Mar 19,2024, Elapsed time: 0:02:15
+# Errors: 0, Warnings: 2
+# vsim -t 10ps work.mux21gentest -voptargs="+acc" 
+# Start time: 13:01:02 on Mar 19,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-13) Recompile work.cfg_mux21_gen_structural because work.cfg_nd2_arch2, work.nd2 have changed.
+# ** Warning: (vopt-12) Recompile work.mux21gentest after work.cfg_mux21_gen_structural is recompiled.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=2.
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
 # Loading work.constants
-# Loading work.mux21test#1
-# Loading work.tbmux21(test)#1
-# Loading work.cfg_mux21_behavioral_1#1
-# Loading work.mux21(behavioral_1)#1
-# Loading work.cfg_mux21_behavioral_2#1
-# Loading work.mux21(behavioral_2)#1
-# Loading work.cfg_mux21_behavioral_3#1
-# Loading work.mux21(behavioral_3)#1
-# Loading work.cfg_mux21_structural#1
-# Loading work.mux21(structural)#1
+# Loading work.mux21gentest#1
+# Loading work.tbmux21_generic(test)#1
+# Loading work.cfg_mux21_gen_behavioral#1
+# Loading work.mux21_generic(behavioral_5)#1
+# Loading work.cfg_mux21_gen_structural#1
+# Loading work.mux21_generic(structural)#1
 # Loading work.cfg_iv_behavioral#1
 # Loading work.iv(behavioral)#1
-# Loading work.cfg_nd2_arch2#1
 # Loading work.nd2(arch2)#1
 add wave *
 run 3 ns
 run 8000 ps
 # Causality operation skipped due to absence of debug database file
-# End time: 10:54:26 on Mar 14,2024, Elapsed time: 1:53:02
-# Errors: 0, Warnings: 0
+# End time: 13:10:24 on Mar 19,2024, Elapsed time: 0:09:22
+# Errors: 0, Warnings: 2

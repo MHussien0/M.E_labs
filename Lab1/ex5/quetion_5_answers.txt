@@ -1,0 +1,7 @@
+Question 1: the assignment statement of Co is missing in the behavioral architecture along with the correct assignmnet of the sum due to the carry out bit, hence an aditional is added STMP which stores the correct sum icluding the carryout bit by concatinating '0' in both input signals A and B.
+
+Question 2: No difference between observed between S1, S2 an d S3
+
+Question 3: No difference between observed among the outputs
+
+

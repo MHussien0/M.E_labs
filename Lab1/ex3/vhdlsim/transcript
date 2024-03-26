@@ -1,0 +1,275 @@
+# //  Questa Sim-64
+# //  Version 2020.4 linux_x86_64 Oct 13 2020
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/constants.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 15:17:31 on Mar 24,2024
+# vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/constants.vhd 
+# -- Loading package STANDARD
+# -- Compiling package CONSTANTS
+# End time: 15:17:31 on Mar 24,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/fd.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 15:17:36 on Mar 24,2024
+# vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/fd.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FD
+# ** Error: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/fd.vhd(13): near "Port": (vcom-1576) expecting ';'.
+# End time: 15:17:36 on Mar 24,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/fd.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 15:18:29 on Mar 24,2024
+# vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/fd.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FD
+# -- Compiling architecture PIPPO of FD
+# -- Compiling architecture PLUTO of FD
+# -- Loading entity FD
+# -- Compiling configuration CFG_FD_PIPPO
+# -- Loading entity FD
+# -- Loading architecture PIPPO of FD
+# -- Compiling configuration CFG_FD_PLUTO
+# -- Loading entity FD
+# -- Loading architecture PLUTO of FD
+# End time: 15:18:29 on Mar 24,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_fd.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 15:18:36 on Mar 24,2024
+# vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_fd.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity TBFD
+# -- Compiling architecture TEST of TBFD
+# -- Compiling configuration FDTEST
+# -- Loading entity TBFD
+# -- Loading architecture TEST of TBFD
+# -- Loading entity FD
+# -- Loading configuration cfg_fd_pippo
+# ** Error: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_fd.vhd(54): (vcom-1133) Type mismatch found on port "D".
+#    In the component "FD", the port type is "ieee.std_logic_1164.STD_LOGIC".
+#    In the entity "FD", the port type is "ieee.std_logic_1164.STD_LOGIC_VECTOR"
+# ** Error: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_fd.vhd(54): (vcom-1133) Type mismatch found on port "Q".
+#    In the component "FD", the port type is "ieee.std_logic_1164.STD_LOGIC".
+#    In the entity "FD", the port type is "ieee.std_logic_1164.STD_LOGIC_VECTOR"
+# -- Loading configuration cfg_fd_pluto
+# ** Error: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_fd.vhd(57): (vcom-1133) Type mismatch found on port "D".
+#    In the component "FD", the port type is "ieee.std_logic_1164.STD_LOGIC".
+#    In the entity "FD", the port type is "ieee.std_logic_1164.STD_LOGIC_VECTOR"
+# ** Error: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_fd.vhd(57): (vcom-1133) Type mismatch found on port "Q".
+#    In the component "FD", the port type is "ieee.std_logic_1164.STD_LOGIC".
+#    In the entity "FD", the port type is "ieee.std_logic_1164.STD_LOGIC_VECTOR"
+# ** Note: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_fd.vhd(61): VHDL Compiler exiting
+# End time: 15:18:36 on Mar 24,2024, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_fd.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 15:31:36 on Mar 24,2024
+# vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_fd.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity TBFD
+# -- Compiling architecture TEST of TBFD
+# ** Error: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_fd.vhd(12): (vcom-1136) Unknown identifier "N".
+# ** Error: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_fd.vhd(12): (vcom-1591) Bad expression in left bound of range expression.
+# ** Error: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_fd.vhd(12): Type error in range expression.
+# ** Error: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_fd.vhd(12): Enumeration literal '0' is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_fd.vhd(13): (vcom-1136) Unknown identifier "N".
+# ** Error: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_fd.vhd(13): (vcom-1591) Bad expression in left bound of range expression.
+# ** Error: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_fd.vhd(13): Type error in range expression.
+# ** Error: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_fd.vhd(14): (vcom-1136) Unknown identifier "N".
+# ** Error: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_fd.vhd(14): (vcom-1591) Bad expression in left bound of range expression.
+# ** Error: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_fd.vhd(14): Type error in range expression.
+# ** Error: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_fd.vhd(32): near "begin": (vcom-1576) expecting ';'.
+# End time: 15:31:36 on Mar 24,2024, Elapsed time: 0:00:00
+# Errors: 11, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_fd.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 15:34:09 on Mar 24,2024
+# vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_fd.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity TBFD
+# -- Compiling architecture TEST of TBFD
+# ** Error: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_fd.vhd(12): Enumeration literal '0' is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_fd.vhd(32): near "begin": (vcom-1576) expecting ';'.
+# End time: 15:34:09 on Mar 24,2024, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_fd.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 15:37:09 on Mar 24,2024
+# vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_fd.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity TBFD
+# -- Compiling architecture TEST of TBFD
+# ** Error: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_fd.vhd(32): near "begin": (vcom-1576) expecting ';'.
+# End time: 15:37:09 on Mar 24,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_fd.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 15:37:20 on Mar 24,2024
+# vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_fd.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity TBFD
+# -- Compiling architecture TEST of TBFD
+# ** Error: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_fd.vhd(35): Signal "CK" is type ieee.std_logic_1164.STD_LOGIC; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_fd.vhd(35): Signal "D" is type ieee.std_logic_1164.STD_LOGIC_VECTOR; expecting type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_fd.vhd(38): Signal "CK" is type ieee.std_logic_1164.STD_LOGIC; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_fd.vhd(38): Signal "D" is type ieee.std_logic_1164.STD_LOGIC_VECTOR; expecting type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_fd.vhd(44): Enumeration literal '0' is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Note: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_fd.vhd(44): (vcom-1499) Aggregate with a single element association must use named association.
+# ** Error: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_fd.vhd(44): Enumeration literal '1' is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Note: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_fd.vhd(44): (vcom-1499) Aggregate with a single element association must use named association.
+# ** Error: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_fd.vhd(44): Enumeration literal '0' is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Note: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_fd.vhd(44): (vcom-1499) Aggregate with a single element association must use named association.
+# ** Error: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_fd.vhd(44): Enumeration literal '1' is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Note: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_fd.vhd(44): (vcom-1499) Aggregate with a single element association must use named association.
+# ** Error: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_fd.vhd(44): Enumeration literal '0' is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Note: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_fd.vhd(44): (vcom-1499) Aggregate with a single element association must use named association.
+# ** Error: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_fd.vhd(44): Enumeration literal '1' is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Note: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_fd.vhd(44): (vcom-1499) Aggregate with a single element association must use named association.
+# ** Note: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_fd.vhd(56): VHDL Compiler exiting
+# End time: 15:37:20 on Mar 24,2024, Elapsed time: 0:00:00
+# Errors: 10, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_fd.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 15:40:10 on Mar 24,2024
+# vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_fd.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity TBFD
+# -- Compiling architecture TEST of TBFD
+# ** Error: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_fd.vhd(44): Enumeration literal '0' is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Note: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_fd.vhd(44): (vcom-1499) Aggregate with a single element association must use named association.
+# ** Error: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_fd.vhd(44): Enumeration literal '1' is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Note: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_fd.vhd(44): (vcom-1499) Aggregate with a single element association must use named association.
+# ** Error: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_fd.vhd(44): Enumeration literal '0' is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Note: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_fd.vhd(44): (vcom-1499) Aggregate with a single element association must use named association.
+# ** Error: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_fd.vhd(44): Enumeration literal '1' is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Note: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_fd.vhd(44): (vcom-1499) Aggregate with a single element association must use named association.
+# ** Error: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_fd.vhd(44): Enumeration literal '0' is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Note: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_fd.vhd(44): (vcom-1499) Aggregate with a single element association must use named association.
+# ** Error: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_fd.vhd(44): Enumeration literal '1' is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Note: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_fd.vhd(44): (vcom-1499) Aggregate with a single element association must use named association.
+# ** Note: /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_fd.vhd(56): VHDL Compiler exiting
+# End time: 15:40:10 on Mar 24,2024, Elapsed time: 0:00:00
+# Errors: 6, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_fd.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 15:50:03 on Mar 24,2024
+# vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_fd.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity TBFD
+# -- Compiling architecture TEST of TBFD
+# -- Compiling configuration FDTEST
+# -- Loading entity TBFD
+# -- Loading architecture TEST of TBFD
+# -- Loading entity FD
+# -- Loading configuration cfg_fd_pippo
+# -- Loading configuration cfg_fd_pluto
+# End time: 15:50:03 on Mar 24,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/constants.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 15:50:17 on Mar 24,2024
+# vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/constants.vhd 
+# -- Loading package STANDARD
+# -- Compiling package CONSTANTS
+# End time: 15:50:17 on Mar 24,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/fd.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 15:50:21 on Mar 24,2024
+# vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/fd.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FD
+# -- Compiling architecture PIPPO of FD
+# -- Compiling architecture PLUTO of FD
+# -- Loading entity FD
+# -- Compiling configuration CFG_FD_PIPPO
+# -- Loading entity FD
+# -- Loading architecture PIPPO of FD
+# -- Compiling configuration CFG_FD_PLUTO
+# -- Loading entity FD
+# -- Loading architecture PLUTO of FD
+# End time: 15:50:21 on Mar 24,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_fd.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 15:50:23 on Mar 24,2024
+# vcom -reportprogress 300 -work work /home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab1/cap1/vhdlsim/tb_fd.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity TBFD
+# -- Compiling architecture TEST of TBFD
+# -- Compiling configuration FDTEST
+# -- Loading entity TBFD
+# -- Loading architecture TEST of TBFD
+# -- Loading entity FD
+# -- Loading configuration cfg_fd_pippo
+# -- Loading configuration cfg_fd_pluto
+# End time: 15:50:24 on Mar 24,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim work.fdtest
+# vsim work.fdtest 
+# Start time: 15:50:42 on Mar 24,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.fdtest#1
+# Loading work.tbfd(test)#1
+# Loading work.cfg_fd_pippo#1
+# Loading work.fd(pippo)#1
+# Loading work.cfg_fd_pluto#1
+# Loading work.fd(pluto)#1
+vsim work.fdtest -t 10ps -voptargs=+acc
+# End time: 15:51:40 on Mar 24,2024, Elapsed time: 0:00:58
+# Errors: 0, Warnings: 0
+# vsim work.fdtest -t 10ps -voptargs="+acc" 
+# Start time: 15:51:40 on Mar 24,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.fdtest#1
+# Loading work.tbfd(test)#1
+# Loading work.cfg_fd_pippo#1
+# Loading work.fd(pippo)#1
+# Loading work.cfg_fd_pluto#1
+# Loading work.fd(pluto)#1
+add wave *
+run 8000 ps
+# Causality operation skipped due to absence of debug database file
+# End time: 15:58:57 on Mar 24,2024, Elapsed time: 0:07:17
+# Errors: 0, Warnings: 0

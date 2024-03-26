@@ -1,0 +1,33 @@
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+        -sort_by group
+Design : FD
+Version: S-2021.06-SP4
+Date   : Mon Mar 25 05:38:34 2024
+****************************************
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: Q_reg[0] (rising edge-triggered flip-flop)
+  Endpoint: Q[0] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  FD                 5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  Q_reg[0]/CK (DFF_X1)                     0.00       0.00 r
+  Q_reg[0]/Q (DFF_X1)                      0.08       0.08 r
+  Q[0] (out)                               0.00       0.08 r
+  data arrival time                                   0.08
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+

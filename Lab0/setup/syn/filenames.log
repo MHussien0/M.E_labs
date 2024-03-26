@@ -270,14 +270,7 @@
 /eda/synopsys/2021-22/RHELx86/SYN_2021.06-SP4/auxx/gui/dv/dv_path_cat_view.tcl
 /eda/synopsys/2021-22/RHELx86/SYN_2021.06-SP4/auxx/gui/common/table/table.tcl
 /eda/synopsys/2021-22/RHELx86/SYN_2021.06-SP4/auxx/gui/common/table/table_internal.tcl
-/home/ms24.40/setup/syn/constants.vhd
+/home/ms24.40/repositories/MS_Labs_gr40_Mohamed/Lab0/setup/syn/iv.vhd
 /home/mariagrazia.graziano/do/libnangate/NangateOpenCellLibrary_typical_ecsm.db
-/home/ms24.40/setup/syn/nd2.vhd
-/home/ms24.40/setup/syn/mux21.vhd
-/home/ms24.40/setup/syn/iv.vhd
-/home/ms24.40/setup/syn/nd2.vhd
-/home/ms24.40/setup/syn/mux21.vhd
 /eda/synopsys/2021-22/RHELx86/SYN_2021.06-SP4/libraries/syn/gtech.db
 /eda/synopsys/2021-22/RHELx86/SYN_2021.06-SP4/libraries/syn/standard.sldb
-/home/mariagrazia.graziano/do/libnangate/NangateOpenCellLibrary_typical_ecsm.db
-/home/mariagrazia.graziano/do/libnangate/NangateOpenCellLibrary_typical_ecsm.db
